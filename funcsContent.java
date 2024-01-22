@@ -1,6 +1,8 @@
+import org.hibernate.validator.constraints.NotEmpty;
 public class funcsContent {
 
-@org.hibernate.validator.constraints.NotEmpty()
+    @NotEmpty()
+    private String sss;
     
     public void build() throws Exception {
       io.github.benas.todolist.web.action.todo.TodoAction clazz23 = new io.github.benas.todolist.web.action.todo.TodoAction();
