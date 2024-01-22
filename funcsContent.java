@@ -214,22 +214,5 @@ clazz4183.setCssClass();
 clazz4183.setCaseSensitive();
 io.github.benas.todolist.web.action.AboutAction clazz4326 = new io.github.benas.todolist.web.action.AboutAction();
 clazz4326.getAboutTabStyle();
-javax.validation.constraints.Size;
-  javax.persistence.GeneratedValue;
-  javax.persistence.NamedQueries;
-  javax.persistence.Temporal;
-  org.hibernate.validator.constraints.NotEmpty;
-  org.hibernate.validator.constraints.Email;
-  javax.persistence.PersistenceContext;
-  org.springframework.transaction.annotation.Transactional;
-  org.springframework.stereotype.Service;
-  javax.persistence.Id;
-  javax.persistence.Entity;
-  javax.persistence.NamedQuery;
-  javax.persistence.Override;
-  org.springframework.stereotype.Repository;
-  javax.persistence.Column;
-  javax.persistence.Enumerated;
-  org.springframework.beans.factory.annotation.Autowired;
     }
 }
