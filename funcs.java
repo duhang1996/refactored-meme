@@ -1,4 +1,7 @@
-io.github.benas.todolist.web.action.todo.TodoAction clazz23 = new io.github.benas.todolist.web.action.todo.TodoAction();
+public class funcsContent {
+
+    public void build() throws Exception {
+      io.github.benas.todolist.web.action.todo.TodoAction clazz23 = new io.github.benas.todolist.web.action.todo.TodoAction();
 clazz23.setUpload();
 clazz23.setUploadContentType();
 clazz23.setUploadFileName();
@@ -228,3 +231,4 @@ javax.validation.constraints.Size;
   javax.persistence.Column;
   javax.persistence.Enumerated;
   org.springframework.beans.factory.annotation.Autowired;
+    }
