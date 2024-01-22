@@ -1,7 +1,6 @@
-import org.hibernate.validator.constraints.NotEmpty;
 public class funcsContent {
 
-    @NotEmpty
+    @org.hibernate.validator.constraints.NotEmpty
     public void build() throws Exception {
       io.github.benas.todolist.web.action.todo.TodoAction clazz23 = new io.github.benas.todolist.web.action.todo.TodoAction();
 clazz23.setUpload();
@@ -234,3 +233,4 @@ javax.validation.constraints.Size;
   javax.persistence.Enumerated;
   org.springframework.beans.factory.annotation.Autowired;
     }
+}
