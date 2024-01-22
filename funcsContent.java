@@ -1,7 +1,8 @@
+import org.hibernate.validator.constraints.NotEmpty;
 public class funcsContent {
 
-    @org.hibernate.validator.constraints.NotEmpty(message = "{registration.error.name.required}")
-    private String sss;
+@NotEmpty(message = "{registration.error.name.required}")
+    private String name;
     
     public void build() throws Exception {
       io.github.benas.todolist.web.action.todo.TodoAction clazz23 = new io.github.benas.todolist.web.action.todo.TodoAction();
