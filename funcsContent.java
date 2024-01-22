@@ -221,7 +221,6 @@ javax.validation.constraints.Size;
   org.hibernate.validator.constraints.NotEmpty;
   org.hibernate.validator.constraints.Email;
   javax.persistence.PersistenceContext;
-  <unresolvedNamespace>.Override;
   org.springframework.transaction.annotation.Transactional;
   org.springframework.stereotype.Service;
   javax.persistence.Id;
