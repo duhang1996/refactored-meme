@@ -29,12 +29,25 @@ import org.hibernate.validator.constraints.NotBlank;
 public class funcsContent {
 
     @Message()
+ private String variable1;
+
 @LogMessage()
+  private String variable2;
+
 @ScriptAssert()
+   private String variable3;
+
 @ModCheck.List()
+   private String variable4;
 @CreditCardNumber()
+   private String variable5;
+
 @Range.List()
+   private String variable6;
+
 @NotEmpty()
+   private String variable7;
+
 @br.CPF()
 @URL()
 @ScriptAssert.List()
