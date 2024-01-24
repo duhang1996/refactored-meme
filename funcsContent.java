@@ -1,7 +1,34 @@
 public class funcsContent {
 
-    @org.hibernate.validator.constraints.NotEmpty()
-    private String sss;
+    @org.jboss.logging.Message()
+@org.jboss.logging.LogMessage()
+@org.hibernate.validator.constraints.ScriptAssert()
+@org.hibernate.validator.constraints.ModCheck$List()
+@org.hibernate.validator.constraints.CreditCardNumber()
+@org.hibernate.validator.constraints.Range$List()
+@org.hibernate.validator.constraints.NotEmpty()
+@org.hibernate.validator.constraints.br.CPF()
+@org.hibernate.validator.constraints.URL()
+@org.hibernate.validator.constraints.ScriptAssert$List()
+@org.hibernate.validator.constraints.NotEmpty$List()
+@org.hibernate.validator.constraints.CreditCardNumber$List()
+@org.hibernate.validator.constraints.NotBlank$List()
+@org.hibernate.validator.constraints.ModCheck()
+@org.hibernate.validator.constraints.Range()
+@org.hibernate.validator.constraints.URL$List()
+@org.hibernate.validator.internal.util.annotationfactory.AnnotationProxy()
+@org.hibernate.validator.constraints.Length()
+@org.hibernate.validator.constraints.SafeHtml$List()
+@org.hibernate.validator.constraints.br.CNPJ()
+@org.hibernate.validator.constraints.Email$List()
+@org.hibernate.validator.constraints.ConstraintComposition()
+@org.hibernate.validator.constraints.Email()
+@org.hibernate.validator.group.GroupSequenceProvider()
+@org.hibernate.validator.constraints.Length$List()
+@org.hibernate.validator.constraints.br.TituloEleitoral()
+@org.hibernate.validator.constraints.SafeHtml()
+@org.hibernate.validator.constraints.NotBlank()
+private String variable;
     
     public void build() throws Exception {
       io.github.benas.todolist.web.action.todo.TodoAction clazz23 = new io.github.benas.todolist.web.action.todo.TodoAction();
