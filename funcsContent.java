@@ -1,4 +1,4 @@
-
+import org.hibernate.validator.constraints.CreditCardNumber;
 public class funcsContent {
  @org.hibernate.validator.constraints.ScriptAssert()
 private String variable0;
