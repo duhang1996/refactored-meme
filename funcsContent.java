@@ -1,51 +1,82 @@
- import org.jboss.logging.Message;
-import org.jboss.logging.LogMessage;
 import org.hibernate.validator.constraints.ScriptAssert;
+import org.hibernate.validator.constraints.ModCheck$List;
 import org.hibernate.validator.constraints.CreditCardNumber;
+import org.hibernate.validator.constraints.Range$List;
 import org.hibernate.validator.constraints.NotEmpty;
+import org.hibernate.validator.constraints.br.CPF;
+import org.hibernate.validator.constraints.URL;
+import org.hibernate.validator.constraints.ScriptAssert$List;
+import org.hibernate.validator.constraints.NotEmpty$List;
+import org.hibernate.validator.constraints.CreditCardNumber$List;
+import org.hibernate.validator.constraints.NotBlank$List;
 import org.hibernate.validator.constraints.ModCheck;
 import org.hibernate.validator.constraints.Range;
+import org.hibernate.validator.constraints.URL$List;
 import org.hibernate.validator.internal.util.annotationfactory.AnnotationProxy;
 import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.SafeHtml$List;
+import org.hibernate.validator.constraints.br.CNPJ;
+import org.hibernate.validator.constraints.Email$List;
 import org.hibernate.validator.constraints.ConstraintComposition;
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.group.GroupSequenceProvider;
+import org.hibernate.validator.constraints.Length$List;
+import org.hibernate.validator.constraints.br.TituloEleitoral;
 import org.hibernate.validator.constraints.SafeHtml;
 import org.hibernate.validator.constraints.NotBlank;
 public class funcsContent {
- @org.jboss.logging.Message()
+ @org.hibernate.validator.constraints.ScriptAssert()
 private String variable0;
-@org.jboss.logging.LogMessage()
+@org.hibernate.validator.constraints.ModCheck$List()
 private String variable1;
-@org.hibernate.validator.constraints.ScriptAssert()
-private String variable3;
 @org.hibernate.validator.constraints.CreditCardNumber()
-private String variable5;
-@NotEmpty(message = "{registration.error.email.required}")
-    @Email(message = "{registration.error.email.invalid}")
-    private String email;
+private String variable2;
+@org.hibernate.validator.constraints.Range$List()
+private String variable3;
+@org.hibernate.validator.constraints.NotEmpty()
+private String variable4;
 @org.hibernate.validator.constraints.br.CPF()
-private String variable7;
+private String variable5;
 @org.hibernate.validator.constraints.URL()
-private String variable12;
+private String variable6;
+@org.hibernate.validator.constraints.ScriptAssert$List()
+private String variable7;
+@org.hibernate.validator.constraints.NotEmpty$List()
+private String variable8;
+@org.hibernate.validator.constraints.CreditCardNumber$List()
+private String variable9;
+@org.hibernate.validator.constraints.NotBlank$List()
+private String variable10;
 @org.hibernate.validator.constraints.ModCheck()
-private String variable13;
+private String variable11;
 @org.hibernate.validator.constraints.Range()
-private String variable15;
+private String variable12;
+@org.hibernate.validator.constraints.URL$List()
+private String variable13;
 @org.hibernate.validator.internal.util.annotationfactory.AnnotationProxy()
-private String variable16;
+private String variable14;
 @org.hibernate.validator.constraints.Length()
-private String variable20;
+private String variable15;
+@org.hibernate.validator.constraints.SafeHtml$List()
+private String variable16;
+@org.hibernate.validator.constraints.br.CNPJ()
+private String variable17;
+@org.hibernate.validator.constraints.Email$List()
+private String variable18;
 @org.hibernate.validator.constraints.ConstraintComposition()
-private String variable21;
+private String variable19;
 @org.hibernate.validator.constraints.Email()
-private String variable22;
+private String variable20;
 @org.hibernate.validator.group.GroupSequenceProvider()
-private String variable25;
+private String variable21;
+@org.hibernate.validator.constraints.Length$List()
+private String variable22;
+@org.hibernate.validator.constraints.br.TituloEleitoral()
+private String variable23;
 @org.hibernate.validator.constraints.SafeHtml()
-private String variable26;
+private String variable24;
 @org.hibernate.validator.constraints.NotBlank()
-private String variable27;
+private String variable25;
     
     public void build() throws Exception {
       io.github.benas.todolist.web.action.todo.TodoAction clazz23 = new io.github.benas.todolist.web.action.todo.TodoAction();
