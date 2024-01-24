@@ -25,6 +25,8 @@
 package io.github.benas.todolist.web.common.form;
 
 import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.constraints.ScriptAssert;
+
 import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.validation.constraints.Size;
@@ -37,6 +39,7 @@ import javax.validation.constraints.Size;
 public class RegistrationForm {
 
     @NotEmpty(message = "{registration.error.name.required}")
+        @ScriptAssert(message = "{registration.error.email.invalid}")
     private String name;
 
     @NotEmpty(message = "{registration.error.email.required}")
