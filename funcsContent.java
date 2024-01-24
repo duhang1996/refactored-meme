@@ -21,8 +21,9 @@ private String variable1;
 private String variable3;
 @org.hibernate.validator.constraints.CreditCardNumber()
 private String variable5;
-@org.hibernate.validator.constraints.NotEmpty()
-private String variable6;
+@NotEmpty(message = "{registration.error.email.required}")
+    @Email(message = "{registration.error.email.invalid}")
+    private String email;
 @org.hibernate.validator.constraints.br.CPF()
 private String variable7;
 @org.hibernate.validator.constraints.URL()
