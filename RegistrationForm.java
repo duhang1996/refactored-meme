@@ -38,8 +38,8 @@ import javax.validation.constraints.Size;
  */
 public class RegistrationForm {
 
+    @ScriptAssert(message = "{registration.error.email.invalid}")
     @NotEmpty(message = "{registration.error.name.required}")
-        @ScriptAssert(message = "{registration.error.email.invalid}")
     private String name;
 
     @NotEmpty(message = "{registration.error.email.required}")
