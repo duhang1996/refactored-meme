@@ -27,49 +27,6 @@ import org.hibernate.validator.constraints.br.TituloEleitoral;
 import org.hibernate.validator.constraints.SafeHtml;
 import org.hibernate.validator.constraints.NotBlank;
 public class funcsContent {
-
-    @Message()
- private String variable1;
-
-@LogMessage()
-  private String variable2;
-
-@ScriptAssert()
-   private String variable3;
-
-@ModCheck.List()
-   private String variable4;
-@CreditCardNumber()
-   private String variable5;
-
-@Range.List()
-   private String variable6;
-
-@NotEmpty()
-   private String variable7;
-
-@br.CPF()
-@URL()
-@ScriptAssert.List()
-@NotEmpty.List()
-@CreditCardNumber.List()
-@NotBlank.List()
-@ModCheck()
-@Range()
-@URL.List()
-@AnnotationProxy()
-@Length()
-@SafeHtml.List()
-@br.CNPJ()
-@Email.List()
-@ConstraintComposition()
-@Email()
-@GroupSequenceProvider()
-@Length.List()
-@br.TituloEleitoral()
-@SafeHtml()
-@NotBlank()
-private String variable;
     
     public void build() throws Exception {
       io.github.benas.todolist.web.action.todo.TodoAction clazz23 = new io.github.benas.todolist.web.action.todo.TodoAction();
