@@ -1,33 +1,61 @@
+ import org.jboss.logging.Message;
+import org.jboss.logging.LogMessage;
+import org.hibernate.validator.constraints.ScriptAssert;
+import org.hibernate.validator.constraints.ModCheck.List;
+import org.hibernate.validator.constraints.CreditCardNumber;
+import org.hibernate.validator.constraints.Range.List;
+import org.hibernate.validator.constraints.NotEmpty;
+import org.hibernate.validator.constraints.br.CPF;
+import org.hibernate.validator.constraints.URL;
+import org.hibernate.validator.constraints.ScriptAssert.List;
+import org.hibernate.validator.constraints.NotEmpty.List;
+import org.hibernate.validator.constraints.CreditCardNumber.List;
+import org.hibernate.validator.constraints.NotBlank.List;
+import org.hibernate.validator.constraints.ModCheck;
+import org.hibernate.validator.constraints.Range;
+import org.hibernate.validator.constraints.URL.List;
+import org.hibernate.validator.internal.util.annotationfactory.AnnotationProxy;
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.SafeHtml.List;
+import org.hibernate.validator.constraints.br.CNPJ;
+import org.hibernate.validator.constraints.Email.List;
+import org.hibernate.validator.constraints.ConstraintComposition;
+import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.group.GroupSequenceProvider;
+import org.hibernate.validator.constraints.Length.List;
+import org.hibernate.validator.constraints.br.TituloEleitoral;
+import org.hibernate.validator.constraints.SafeHtml;
+import org.hibernate.validator.constraints.NotBlank;
 public class funcsContent {
 
-    @org.jboss.logging.Message()
-@org.jboss.logging.LogMessage()
-@org.hibernate.validator.constraints.ScriptAssert()
-@org.hibernate.validator.constraints.ModCheck.List()
-@org.hibernate.validator.constraints.CreditCardNumber()
-@org.hibernate.validator.constraints.Range.List()
-@org.hibernate.validator.constraints.NotEmpty()
-@org.hibernate.validator.constraints.br.CPF()
-@org.hibernate.validator.constraints.URL()
-@org.hibernate.validator.constraints.ScriptAssert.List()
-@org.hibernate.validator.constraints.NotEmpty.List()
-@org.hibernate.validator.constraints.CreditCardNumber.List()
-@org.hibernate.validator.constraints.NotBlank.List()
-@org.hibernate.validator.constraints.ModCheck()
-@org.hibernate.validator.constraints.Range()
-@org.hibernate.validator.constraints.URL.List()
-@org.hibernate.validator.internal.util.annotationfactory.AnnotationProxy()
-@org.hibernate.validator.constraints.Length()
-@org.hibernate.validator.constraints.SafeHtml.List()
-@org.hibernate.validator.constraints.br.CNPJ()
-@org.hibernate.validator.constraints.Email.List()
-@org.hibernate.validator.constraints.ConstraintComposition()
-@org.hibernate.validator.constraints.Email()
-@org.hibernate.validator.group.GroupSequenceProvider()
-@org.hibernate.validator.constraints.Length.List()
-@org.hibernate.validator.constraints.br.TituloEleitoral()
-@org.hibernate.validator.constraints.SafeHtml()
-@org.hibernate.validator.constraints.NotBlank()
+    @Message()
+@LogMessage()
+@ScriptAssert()
+@ModCheck.List()
+@CreditCardNumber()
+@Range.List()
+@NotEmpty()
+@br.CPF()
+@URL()
+@ScriptAssert.List()
+@NotEmpty.List()
+@CreditCardNumber.List()
+@NotBlank.List()
+@ModCheck()
+@Range()
+@URL.List()
+@AnnotationProxy()
+@Length()
+@SafeHtml.List()
+@br.CNPJ()
+@Email.List()
+@ConstraintComposition()
+@Email()
+@GroupSequenceProvider()
+@Length.List()
+@br.TituloEleitoral()
+@SafeHtml()
+@NotBlank()
 private String variable;
     
     public void build() throws Exception {
