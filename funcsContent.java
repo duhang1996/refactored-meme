@@ -1,29 +1,4 @@
-import org.hibernate.validator.constraints.ScriptAssert;
-import org.hibernate.validator.constraints.ModCheck$List;
-import org.hibernate.validator.constraints.CreditCardNumber;
-import org.hibernate.validator.constraints.Range$List;
-import org.hibernate.validator.constraints.NotEmpty;
-import org.hibernate.validator.constraints.br.CPF;
-import org.hibernate.validator.constraints.URL;
-import org.hibernate.validator.constraints.ScriptAssert$List;
-import org.hibernate.validator.constraints.NotEmpty$List;
-import org.hibernate.validator.constraints.CreditCardNumber$List;
-import org.hibernate.validator.constraints.NotBlank$List;
-import org.hibernate.validator.constraints.ModCheck;
-import org.hibernate.validator.constraints.Range;
-import org.hibernate.validator.constraints.URL$List;
-import org.hibernate.validator.internal.util.annotationfactory.AnnotationProxy;
-import org.hibernate.validator.constraints.Length;
-import org.hibernate.validator.constraints.SafeHtml$List;
-import org.hibernate.validator.constraints.br.CNPJ;
-import org.hibernate.validator.constraints.Email$List;
-import org.hibernate.validator.constraints.ConstraintComposition;
-import org.hibernate.validator.constraints.Email;
-import org.hibernate.validator.group.GroupSequenceProvider;
-import org.hibernate.validator.constraints.Length$List;
-import org.hibernate.validator.constraints.br.TituloEleitoral;
-import org.hibernate.validator.constraints.SafeHtml;
-import org.hibernate.validator.constraints.NotBlank;
+
 public class funcsContent {
  @org.hibernate.validator.constraints.ScriptAssert()
 private String variable0;
