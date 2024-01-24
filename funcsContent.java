@@ -1,7 +1,6 @@
-import org.hibernate.validator.constraints.NotEmpty;
 public class funcsContent {
 
-    @NotEmpty()
+    @org.hibernate.validator.constraints.NotEmpty()
     private String sss;
     
     public void build() throws Exception {
